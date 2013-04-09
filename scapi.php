@@ -16,7 +16,8 @@ td.RD {
 
 <?php
 
-    $url = "http://localhost:8000/stats?sid=1";
+//THIS IS THE SOURCE Server's URL of the XML file to read;;
+    $url = "http://manovani.servemp3.com/stats?sid=1";
         $data = file_get_contents($url);
 
 
